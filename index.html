@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop-up</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <button class="boton" ><span class="boton__texto">Suscribirse</span></button>
+        <div class="pop-up ">
+            <div class="pop-up__overlay">
+                <input type="button" class="overlay__cerrar" value="X">
+                <img src="img/correo_img.svg" class="overlay__img" alt="persona con carta">
+                <div class="overlay__info">
+                    <h1 class="info__titulo">Suscríbete ahora</h1>
+                    <form class="info__form">
+                        <input type="email" class="form__email" placeholder="Correo Electronico" required>
+                        <input type="button" value="Enviar" class="form__boton">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </main>
+</body>
+    <script src="js/index.js"></script>
+</html>
